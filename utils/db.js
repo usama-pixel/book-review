@@ -8,6 +8,4 @@ const sequelize = new Sequelize(db_name, db_user, db_pass, {
     port: 5432,
 })
 
-module.exports = {
-    sequelize
-}
+module.exports = sequelize
